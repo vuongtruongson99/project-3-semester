@@ -11,17 +11,16 @@ Project is created with:
 * Java: 11.0.10
 * JavaFX: 8.0.251
 * Scene Builder: 16.0.0
-* MySQL Workbench: 8.0.23
 
 ## Setup
-Clone the repository:
+* Clone the repository:
 ```
 git clone https://github.com/vuongtruongson99/project-3-semester
 ```
-Import the database.sql file into your MySQL Database
-Run the application using:
+* Import the database.sql file into your MySQL Database
+* Run the application using:
 ```
-gradlew run
+gradle run
 ```
 ## Contributors:
 * [Евдокимов Михаил Владимирович](https://github.com/mevd01)
