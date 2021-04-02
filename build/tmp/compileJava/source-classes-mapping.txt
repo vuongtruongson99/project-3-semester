@@ -1,4 +1,20 @@
 rtu/mirea/project/Main.java
  rtu.mirea.project.Main
+rtu/mirea/project/model/Task.java
+ rtu.mirea.project.model.Task
 rtu/mirea/project/controller/LoginController.java
  rtu.mirea.project.controller.LoginController
+rtu/mirea/project/model/User.java
+ rtu.mirea.project.model.User
+rtu/mirea/project/controller/AddItemController.java
+ rtu.mirea.project.controller.AddItemController
+rtu/mirea/project/Database/Configs.java
+ rtu.mirea.project.Database.Configs
+rtu/mirea/project/animations/Shaker.java
+ rtu.mirea.project.animations.Shaker
+rtu/mirea/project/controller/SignupController.java
+ rtu.mirea.project.controller.SignupController
+rtu/mirea/project/Database/Const.java
+ rtu.mirea.project.Database.Const
+rtu/mirea/project/Database/DatabaseHandler.java
+ rtu.mirea.project.Database.DatabaseHandler
