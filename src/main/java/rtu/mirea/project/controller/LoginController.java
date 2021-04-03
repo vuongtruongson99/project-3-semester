@@ -96,6 +96,7 @@ public class LoginController {
             Parent root = loader.getRoot();
             Stage stage = new Stage();
             stage.setScene(new Scene(root));
+            stage.setTitle("Todo List");
             stage.showAndWait();
         });
     }
@@ -113,6 +114,7 @@ public class LoginController {
         Parent root = loader.getRoot();
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
+        stage.setTitle("Todo List");
         stage.showAndWait();
     }
 

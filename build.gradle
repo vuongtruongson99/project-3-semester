@@ -2,11 +2,13 @@ plugins {
     id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.9'
+    id("com.github.johnrengelman.shadow") version "6.1.0"
 }
 
 group 'org.example'
 version '1.0-SNAPSHOT'
-sourceCompatibility = 11
+mainClassName = "rtu.mirea.project.Main"
+
 repositories {
     mavenCentral()
 }
@@ -14,10 +16,34 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+    compile 'org.openjfx:javafx-base:11:win'
+    compile 'org.openjfx:javafx-controls:11:win'
+    compile 'org.openjfx:javafx-fxml:11:win'
+    compile 'org.openjfx:javafx-graphics:11:win'
+}
+
+java {
+    sourceCompatibility = JavaVersion.toVersion("11")
+    targetCompatibility = JavaVersion.toVersion("11")
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "rtu.mirea.project.Main"
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }
 
 javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
+    version = 13
 }
 
-mainClassName = 'rtu.mirea.project.Main'
+shadowJar {
+    archivesBaseName = "Todoapp"
+    libsDirName = "App123"
+    classifier('')
+}

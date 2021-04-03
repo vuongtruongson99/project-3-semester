@@ -1,7 +1,9 @@
-rtu/mirea/project/Main.java
- rtu.mirea.project.Main
+rtu/mirea/project/Database/DatabaseHandler.java
+ rtu.mirea.project.Database.DatabaseHandler
 rtu/mirea/project/model/Task.java
  rtu.mirea.project.model.Task
+rtu/mirea/project/Todo.java
+ rtu.mirea.project.Todo
 rtu/mirea/project/controller/LoginController.java
  rtu.mirea.project.controller.LoginController
 rtu/mirea/project/model/User.java
@@ -16,5 +18,5 @@ rtu/mirea/project/controller/SignupController.java
  rtu.mirea.project.controller.SignupController
 rtu/mirea/project/Database/Const.java
  rtu.mirea.project.Database.Const
-rtu/mirea/project/Database/DatabaseHandler.java
- rtu.mirea.project.Database.DatabaseHandler
+rtu/mirea/project/Main.java
+ rtu.mirea.project.Main

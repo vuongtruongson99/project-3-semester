@@ -57,6 +57,7 @@ public class SignupController {
             Parent root = loader.getRoot();
             Stage stage = new Stage();
             stage.setScene(new Scene(root));
+            stage.setTitle("Todo List");
             stage.showAndWait();
         });
 
