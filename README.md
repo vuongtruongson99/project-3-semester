@@ -9,7 +9,7 @@ Final project of Software Application Development Technology in MIREA created wi
 ## Technologies
 Project is created with:
 * Java: 11.0.10
-* JavaFX: 8.0.251
+* JavaFX: 13
 * Scene Builder: 16.0.0
 
 ## Setup
