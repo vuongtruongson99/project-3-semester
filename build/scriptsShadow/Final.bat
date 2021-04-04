@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\Todoapp-1.0-SNAPSHOT.jar
+set CLASSPATH=%APP_HOME%\lib\IKBO-05-19-1.0-SNAPSHOT.jar
 
 @rem Execute Final
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %FINAL_OPTS%  -jar "%CLASSPATH%" %CMD_LINE_ARGS%

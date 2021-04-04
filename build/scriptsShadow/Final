@@ -80,7 +80,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/Todoapp-1.0-SNAPSHOT.jar
+CLASSPATH=$APP_HOME/lib/IKBO-05-19-1.0-SNAPSHOT.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then

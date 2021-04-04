@@ -86,6 +86,8 @@ public class LoginController {
         loginSignup.setOnAction(event -> {
             loginSignup.getScene().getWindow().hide();
             FXMLLoader loader = new FXMLLoader();
+            URL location = LoginController.class.getProtectionDomain().getCodeSource().getLocation();
+            System.out.println(location.getFile());
             loader.setLocation(getClass().getResource("../signup.fxml"));
             try {
                 loader.load();

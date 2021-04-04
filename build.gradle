@@ -2,7 +2,7 @@ plugins {
     id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.9'
-    id("com.github.johnrengelman.shadow") version "6.1.0"
+    //id("com.github.johnrengelman.shadow") version "6.1.0"
 }
 
 group 'org.example'
@@ -16,10 +16,6 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
-    compile 'org.openjfx:javafx-base:11:win'
-    compile 'org.openjfx:javafx-controls:11:win'
-    compile 'org.openjfx:javafx-fxml:11:win'
-    compile 'org.openjfx:javafx-graphics:11:win'
 }
 
 java {
@@ -40,10 +36,4 @@ jar {
 javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
     version = 13
-}
-
-shadowJar {
-    archivesBaseName = "Todoapp"
-    libsDirName = "App123"
-    classifier('')
 }
