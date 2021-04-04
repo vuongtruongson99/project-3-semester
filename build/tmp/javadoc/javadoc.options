@@ -1,0 +1,18 @@
+-classpath 'H:\\Ki 2 nam 2\\Final\\build\\classes\\java\\main;H:\\Ki 2 nam 2\\Final\\build\\resources\\main;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\mysql\\mysql-connector-java\\8.0.23\\14d64ac509adccaff444513c12646d93e4ed8be8\\mysql-connector-java-8.0.23.jar;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-fxml\\13\\ee55786ffd820bb7c8dd43d127a54b1141639e29\\javafx-fxml-13-win.jar;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-controls\\13\\7524fd4ab57de51637adb0e99f0220a1ae0ae4dd\\javafx-controls-13-win.jar;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-controls\\13\\6cd7169d2a729846c35fba9dc65af23a10ca253b\\javafx-controls-13.jar;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-graphics\\13\\bbcbc616702a086567585183efcb0ab8eb22a66b\\javafx-graphics-13-win.jar;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-graphics\\13\\a9407212df2b75d557a509ec14a9e8e282494b4e\\javafx-graphics-13.jar;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-base\\13\\6386f02a2b71d8b503c6ca3cd2d2dcb382ce86b4\\javafx-base-13-win.jar;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\org.openjfx\\javafx-base\\13\\43c52e1d11b38514e9d2421ad98ca6a35de12b0\\javafx-base-13.jar;C:\\Users\\trson\\.gradle\\caches\\modules-2\\files-2.1\\com.google.protobuf\\protobuf-java\\3.11.4\\7ec0925cc3aef0335bbc7d57edfd42b0f86f8267\\protobuf-java-3.11.4.jar'
+-d 'H:\\Ki 2 nam 2\\Final\\build\\docs\\javadoc'
+-doctitle 'Final 1.0-SNAPSHOT API'
+-encoding 'UTF-8'
+-notimestamp 
+-quiet 
+-windowtitle 'Final 1.0-SNAPSHOT API'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\animations\\Shaker.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\controller\\AddItemController.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\controller\\LoginController.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\controller\\SignupController.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\Database\\Configs.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\Database\\Const.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\Database\\DatabaseHandler.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\Main.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\model\\Task.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\model\\User.java'
+'H:\\Ki 2 nam 2\\Final\\src\\main\\java\\rtu\\mirea\\project\\Todo.java'

@@ -9,8 +9,16 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Todo extends Application {
+/**
+ * Starts the ToDo List Application
+ */
 
+public class Todo extends Application {
+    /**
+     * Starts the JavaFX Application
+     *
+     * @param primaryStage
+     */
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
@@ -19,7 +27,11 @@ public class Todo extends Application {
         primaryStage.show();
     }
 
-
+    /**
+     * Entry Point of the Application
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         launch(args);
     }

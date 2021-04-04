@@ -1,5 +1,8 @@
 package rtu.mirea.project.model;
 
+/**
+ * Model of User
+ */
 public class User {
     private String firstName;
     private String lastName;
@@ -8,10 +11,22 @@ public class User {
     private String location;
     private String gender;
 
+    /**
+     * Constructor with non-parameters
+     */
     public User() {
 
     }
 
+    /**
+     * Constructor with parameter of User
+     * @param firstName
+     * @param lastName
+     * @param userName
+     * @param password
+     * @param location
+     * @param gender
+     */
     public User(String firstName, String lastName, String userName, String password, String location, String gender) {
         this.firstName = firstName;
         this.lastName = lastName;

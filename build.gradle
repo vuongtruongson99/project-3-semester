@@ -25,7 +25,7 @@ java {
 
 jar {
     manifest {
-        attributes "Main-Class": "rtu.mirea.project.Main"
+        attributes "Main-Class": "$mainClassName"
     }
 
     from {
@@ -36,4 +36,8 @@ jar {
 javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
     version = 13
+}
+
+javadoc {
+    options.encoding = 'UTF-8'
 }

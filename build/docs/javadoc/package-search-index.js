@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"rtu.mirea.project"},{"l":"rtu.mirea.project.animations"},{"l":"rtu.mirea.project.controller"},{"l":"rtu.mirea.project.Database"},{"l":"rtu.mirea.project.model"}]
