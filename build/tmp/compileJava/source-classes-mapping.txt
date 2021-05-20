@@ -1,22 +1,18 @@
+rtu/mirea/project/model/TodoTask.java
+ rtu.mirea.project.model.TodoTask
+rtu/mirea/project/test/TestBasicFunctionality.java
+ rtu.mirea.project.test.TestBasicFunctionality
+rtu/mirea/project/controller/TodoGUIController.java
+ rtu.mirea.project.controller.TodoGUIController
+ rtu.mirea.project.controller.TodoGUIController$1
+ rtu.mirea.project.controller.TodoGUIController$2
+ rtu.mirea.project.controller.TodoGUIController$3
+rtu/mirea/project/test/TestHarness.java
+ rtu.mirea.project.test.TestHarness
+ rtu.mirea.project.test.TestHarness$1
+rtu/mirea/project/model/AppData.java
+ rtu.mirea.project.model.AppData
 rtu/mirea/project/Main.java
  rtu.mirea.project.Main
-rtu/mirea/project/model/Task.java
- rtu.mirea.project.model.Task
 rtu/mirea/project/Todo.java
  rtu.mirea.project.Todo
-rtu/mirea/project/controller/LoginController.java
- rtu.mirea.project.controller.LoginController
-rtu/mirea/project/model/User.java
- rtu.mirea.project.model.User
-rtu/mirea/project/controller/AddItemController.java
- rtu.mirea.project.controller.AddItemController
-rtu/mirea/project/Database/Configs.java
- rtu.mirea.project.Database.Configs
-rtu/mirea/project/animations/Shaker.java
- rtu.mirea.project.animations.Shaker
-rtu/mirea/project/controller/SignupController.java
- rtu.mirea.project.controller.SignupController
-rtu/mirea/project/Database/Const.java
- rtu.mirea.project.Database.Const
-rtu/mirea/project/Database/DatabaseHandler.java
- rtu.mirea.project.Database.DatabaseHandler
