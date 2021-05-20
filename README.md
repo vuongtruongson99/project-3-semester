@@ -17,7 +17,8 @@ Project is created with:
 ```
 git clone https://github.com/vuongtruongson99/project-3-semester
 ```
-* Import the database.sql file into your MySQL WorkBench
+* Import the `database.sql` file into your MySQL WorkBench
+* Change the required parameters in the file `src/main/java/rtu/mirea/project/Database/Configs.java`
 * Run the application using:
 ```
 gradle run
